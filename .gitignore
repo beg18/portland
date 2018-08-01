@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+Thumbs.db
+/nbproject/*
+/node_modules/* 
+node_modules/
+*.log
+*.psd
+*.ai
+*.pdf
