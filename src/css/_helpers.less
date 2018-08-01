@@ -5,7 +5,7 @@
 }
 
 .line-height(@px){
-  line-height: @px/16px;
+  line-height: @px/16;
 }
 
 .dib-mid(){
@@ -42,10 +42,12 @@
     transform: translateY(50%);
 }
 
-.montserrat(){
+.montserrat(@font-weight:normal){
   font-family: "Montserrat";
+  font-weight: @font-weight;
 }
 
-.crimson() {
+.crimson(@font-weight:normal) {
   font-family: "Crimson Text";
+  font-weight: @font-weight;
 }

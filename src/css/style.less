@@ -6,6 +6,7 @@
 
 // Bootstrap Components
 
+/*
 @import "@{bootstrap}variables";
 @import "@{bootstrap}mixins";
 @import "@{bootstrap}normalize";
@@ -14,16 +15,27 @@
 @import "@{bootstrap}type";
 @import "@{bootstrap}responsive-utilities";
 @import "@{bootstrap}utilities";
-
+*/
+.reset();
 
 html, body {
     height: 100%;
 }
 html {
     font-size: 16px;
+
+    .sm-block({
+        font-size: 15px;
+    });
+    .xs-block({
+        font-size: 14px;
+    });
+    .xxs-block({
+        font-size: 13px;
+    });
 }
 body {
-    font-family: Arial, sans-serif;
+    .montserrat();
     font-size: @regular;
     color: @base_color;
 }
@@ -52,6 +64,7 @@ fieldset {
 
 
 
+
 /* Vendor libs import
 ==============================*/
 @import (less) "libs/font-awesome.css";
@@ -69,11 +82,22 @@ fieldset {
 /* Pages import
 ==============================*/
 @import "pages/home";
+@import "pages/sections/nav";
+@import "pages/sections/banner";
 
 
+/* Fonts import
+==============================*/
+@import(less) "fonts/webfontkit1/crimsontext.css";
+@import(less) "fonts/webfontkit2/montserrat.css";
 
 
+/*
 .debug{
     .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
 }
+*/
 
+.wrapper {
+    .wrapper();
+}
