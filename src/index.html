@@ -1,396 +1,615 @@
-//= templates/head.html
-<div class="debug">
-    <div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-</div>
-<!--Begin block main__menu -->
-<div class="main__menu">
-    <!--Begin block wrapper -->
-    <div class="wrapper">
-        <!--Begin block menu__wrap -->
-        <div class="menu__wrap-top">
-            <!--Begin block menu__left -->
-            <div class="menu__left">
-                <div class="header">
-                    <div class="menu-icon" data-behaviour="toggle-menu-icon">
-                        <span class="menu-icon__bar"></span>
-                    </div>
-                </div>
-                <nav class="nav" data-element="toggle-nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a class="nav__link" href="#">Menu item One</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link nav__link--plus" data-behaviour="toggle-link-icon" href="#">Menu item Two</a>
-                            <ul class="nav__sub-list" data-behaviour="toggle-sub-menu">
-                                <li class="nav__sub-item">
-                                    <a class="nav__link"  href="#">Sub Menu item one</a>
-                                </li>
-                                <li class="nav__sub-item">
-                                    <a class="nav__link" href="#">Sub Menu item two</a>
-                                </li>
-                                <li class="nav__sub-item">
-                                    <a class="nav__link" href="#">Sub Menu item three</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="#">Menu item Three</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="nav__link" href="#">Menu item Four</a>
-                        </li>
-                    </ul>
-                </nav>
 
-                <!--Begin block menu__left-logo -->
-                <div class="menu__left-logo">
-                    <a href="#" class="logo__link">
-                        <img src="i/logo.png" alt="logo" class="logo__img">
-                    </a>
-                </div>
-                <!--end block menu__left-logo -->
+    //= templates/head.html
+    <div class="debug">
+    </div>
+
+    <div class="main__menu">
+
+      <div class="wrapper">
+
+        <div class="menu__wrap-top">
+
+          <div class="menu__left">
+            <div class="header">
+              <div class="menu-icon" data-behaviour="toggle-menu-icon">
+              </div>
             </div>
-            <!--end block menu__left -->
-            <!--Begin block menu__center -->
-            <div class="menu__center">
-                <a href="#" class="menu__center-link">
-                    Home
-                </a>
-                <a href="#" class="menu__center-link">
-                    Devices
-                </a>
-                <a href="#" class="menu__center-link">
-                    Delivery & Payment
-                </a>
-                <a href="#" class="menu__center-link">
-                    Guarantee
-                </a>
-                <a href="#" class="menu__center-link">
-                    About Us
-                </a>
+            <nav class="nav" data-element="toggle-nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Menu item One</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link nav__link--plus" data-behaviour="toggle-link-icon" href="#">Menu item Two</a>
+                  <ul class="nav__sub-list" data-behaviour="toggle-sub-menu">
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Sub Menu item one</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Sub Menu item two</a>
+                    </li>
+                    <li class="nav__sub-item">
+                      <a class="nav__link" href="#">Sub Menu item three</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Menu item Three</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Menu item Four</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="menu__left-logo">
+              <a href="#" class="logo__link"><img src="i/logo.png" alt="logo" class="logo__img"></a>
             </div>
-            <!--end block menu__center -->
-            <!--Begin block menu__right -->
-            <div class="menu__right">
-                <a href="#" class="menu__right-link">
-                    <img src="i/icons/icon-cart.png" alt="Shoping cart" class="menu__right-img">
-                    <span class="menu__right-text">cart</span>
-                    <span class="menu__right-text badge">
-                    0
-                </span>
-                </a>
-                <a href="#" class="menu__right-text menu__right-btn">
-                    Sign In
-                </a>
-            </div>
-            <!--end block menu__right -->
+            <!--end block menu__left-logo -->
+          </div>
+          <!--end block menu__left -->
+
+          <div class="menu__center">
+            <a href="#" class="menu__center-link">Home</a>
+            <a href="#" class="menu__center-link">Devices</a>
+            <a href="#" class="menu__center-link">Delivery &amp;
+            Payment</a>
+            <a href="#" class="menu__center-link">Guarantee</a>
+            <a href="#" class="menu__center-link">About Us</a>
+          </div>
+          <!--end block menu__center -->
+
+          <div class="menu__right">
+            <a href="#" class="menu__right-link"><img src="i/icons/icon-cart.png" alt="Shoping cart"
+            class="menu__right-img"> <span class="menu__right-text">cart</span> <span class=
+            "menu__right-text badge">0</span></a>
+            <a href="#" class="menu__right-text menu__right-btn">Sign In</a>
+          </div>
+          <!--end block menu__right -->
         </div>
         <!--end block menu__wrap -->
+      </div>
+      <!--end block wrapper -->
     </div>
-    <!--end block wrapper -->
-</div>
-<!--end block main__menu -->
-<!--Begin block menu__bottom -->
-<div class="menu__bottom">
-    <!--Begin block wrapper -->
-    <div class="wrapper">
-        <!--Begin block menu__wrap-bottom -->
+    <!--end block main__menu -->
+
+    <div class="menu__bottom">
+
+      <div class="wrapper">
+
         <div class="menu__wrap-bottom">
-            <!--Begin block menu__bottom-left -->
-            <div class="menu__bottom-left">
-                <a href="#" class="menu__bottom-link">
-                    Top Sales
-                </a>
-                <a href="#" class="menu__bottom-link">
-                    Brand Focus
-                </a>
-                <a href="#" class="menu__bottom-link active">
-                    Hi-tech
-                </a>
-                <a href="#" class="menu__bottom-link">
-                    Best Sellers
-                </a>
-                <a href="#" class="menu__bottom-link">
-                    Projects
-                </a>
-            </div>
-            <!--end block menu__bottom-left -->
-            <!--Begin block menu__bottom-right -->
-            <div class="menu__bottom-right">
-                <a href="#" class="menu__bottom-contacts">
-                    Support
-                </a>
-                <a href="#" class="menu__bottom-contacts">
-                    <img src="i/icons/icon-search.png" alt="" class="contacts__link-img">
-                    <span class="contacts__link-text">I’m looking for ...</span>
-                </a>
-            </div>
-            <!--end block menu__bottom-right -->
+
+          <div class="menu__bottom-left">
+            <a href="#" class="menu__bottom-link">Top Sales</a>
+            <a href="#" class="menu__bottom-link">Brand Focus</a>
+            <a href="#" class="menu__bottom-link active">Hi-tech</a>
+            <a href="#" class="menu__bottom-link">Best
+            Sellers</a>
+            <a href="#" class="menu__bottom-link">Projects</a>
+          </div>
+          <!--end block menu__bottom-left -->
+
+          <div class="menu__bottom-right">
+            <a href="#" class="menu__bottom-contacts">Support</a>
+            <a href="#" class="menu__bottom-contacts"><img src="i/icons/icon-search.png" alt="" class=
+            "contacts__link-img"> <span class="contacts__link-text">I’m looking for ...</span></a>
+          </div>
+          <!--end block menu__bottom-right -->
         </div>
         <!--end block menu__wrap-bottom -->
+      </div>
+      <!--end block wrapper -->
     </div>
-    <!--end block wrapper -->
-</div>
-<!--end block menu__bottom -->
+    <!--end block menu__bottom -->
 
-<!-- Begin section banner-->
-<section id="banner">
-  <!--Begin block wrapper -->
-  <div class="wrapper">
-      <!--Begin block banner__wrap -->
-      <div class="banner__wrap">
-          <!--Begin block banner__content -->
+    <section id="banner">
+
+      <div class="wrapper">
+
+        <div class="banner__wrap">
+
           <div class="banner__content">
-              <!--Begin block banner__title -->
-              <h1 class="banner__title">
-                  iPhone 6 32Gb<br> Black
-              </h1>
-              <!--end block banner__title -->
-              <!--Begin block banner__text -->
-              <div class="banner__text">
-                  <p>
-                      At first, for some time, I was not able to answer him one word; but as he had taken me in his arms
-                      I held fast by him, or I should have fallen to the ground.
-                  </p>
-              </div>
-              <!--end block banner__text -->
-              <a href="#" class="banner__btn">
-                  Buy Now
-              </a>
+
+            <h1 class="banner__title">
+              iPhone 6 32Gb
+              <br>
+              Black
+            </h1>
+            <!--end block banner__title -->
+
+            <div class="banner__text">
+              <p>
+                At first, for some time, I was not able to answer him one word; but as he had taken
+                me in his arms I held fast by him, or I should have fallen to the ground.
+              </p>
+            </div>
+            <!--end block banner__text -->
+            <a href="#" class="banner__btn">Buy Now</a>
           </div>
           <!--end block banner__content -->
-          <!--Begin block banner__empty -->
-          <div class="banner__empty">
-           <!--Begin block triangle -->
-           <div class="triangle">
 
-           </div>
-           <!--end block triangle -->
+          <div class="banner__empty">
+
+            <div class="triangle">
+            </div>
+            <!--end block triangle -->
           </div>
           <!--end block banner__empty -->
-      </div>
-      <!--end block banner__wrap -->
-  </div>
-  <!--end block wrapper -->
-</section>
-<!-- End section banner-->
-<!-- Begin section sort-->
-<section id="sort">
- <div class="wrapper">
- <form action="#" method="POST" class="sort__form">
-     <div class="sort__select-left">
-      <p class="select__value">
-        Sort By:
-      </p>
-     <select name="" size="1" class="select__list">
-          <option value="Best Match" selected="selected" class="select__item">Best Match</option>
-          <option value="item1" class="select__item">item1</option>
-          <option value="item2" class="select__item">item2</option>
-          <option value="item3" class="select__item">item3</option>
-     </select>
-     </div>
-     <!--/.sort__select-left-->
-     <div class="sort__select-center">
-         <div class="select__center-keywords">
-             <label class="keywords__label" for="keywords">Keywords</label>
-             <input name="keywords" class="keywords__input" type="text" id="keywords" placeholder="Tablet">
-         </div>
-         <div class="select__center-price">
-             <label for="price" class="price__label">price</label>
-             <input name="price" class="price__input"  type="text" id="price" placeholder="10"><span>-</span>
-             <input name="price" class="price__input"  type="text" placeholder="1000">
-         </div>
-         <div class="select__center-freeShipping">
-             <div class="freeShipping__img">
-                <img src="i/icons/icon-check.png" class="freeShipping__img-icon" alt="">
-             </div>
-             <div class="freeShipping__text">
-                 Free Shipping
-             </div>
-         </div>
-     </div>
-     <!--/.sort__select-center-->
-     <div class="sort__select-right">
-       <p class="select__value">
-           Ship to:
-       </p>
-        <select name="" size="1" class="select__list">
-          <option value="USA" selected="selected" class="select__item">USA</option>
-          <option value="item1" class="select__item">item1</option>
-          <option value="item2" class="select__item">item2</option>
-          <option value="item3" class="select__item">item3</option>
-        </select>
-     </div>
-     <!--/.sort__select-right-->
- </form>
- </div>
-</section>
-<!-- End section sort-->
-<!-- Begin section products-->
-<section id="products">
-    <div class="wrapper">
-        <div class="filters">
-            <div class="filters__card"></div>
-            <div class="filters__card"></div>
-            <div class="filters__card"></div>
-            <div class="filters__card"></div>
         </div>
-        <div class="products">
-            <div class="products__row">
-                <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                </div>
-                <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img2.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Pebble Time
-                    </div>
-                    <div class="products__item-feature">
-                        Red
-                    </div>
-                    <div class="products__item-price">
-                        $29.99
-                    </div>
-                </div>
+        <!--end block banner__wrap -->
+      </div>
+      <!--end block wrapper -->
+    </section>
+    <!-- End section banner-->
+
+    <section id="sort">
+      <div class="wrapper">
+        <form action="#" method="post" class="sort__form">
+          <div class="sort__select-left">
+            <p class="select__value">
+              Sort By:
+            </p>
+            <select name="" size="1" class="select__list">
+              <option value="Best Match" selected="selected" class="select__item">
+                Best Match
+              </option>
+              <option value="item1" class="select__item">
+                item1
+              </option>
+              <option value="item2" class="select__item">
+                item2
+              </option>
+              <option value="item3" class="select__item">
+                item3
+              </option>
+            </select>
+          </div>
+          <!--/.sort__select-left-->
+          <div class="sort__select-center">
+            <div class="select__center-keywords">
+              <label class="keywords__label" for="keywords">
+                Keywords
+              </label>
+              <input name="keywords" class="keywords__input" type="text" id="keywords" placeholder="Tablet">
             </div>
+            <div class="select__center-price">
+              <label for="price" class="price__label">
+                price
+              </label>
+              <input name="price" class="price__input" type="text" id="price" placeholder="10">
+              <span>
+                -
+              </span>
+              <input name="price" class="price__input" type="text" placeholder="1000">
+            </div>
+            <div class="select__center-freeShipping">
+              <div class="freeShipping__img">
+                <img src="i/icons/icon-check.png" class="freeShipping__img-icon" alt="">
+              </div>
+              <div class="freeShipping__text">
+                Free Shipping
+              </div>
+            </div>
+          </div>
+          <!--/.sort__select-center-->
+          <div class="sort__select-right">
+            <p class="select__value">
+              Ship to:
+            </p>
+            <select name="" size="1" class="select__list">
+              <option value="USA" selected="selected" class="select__item">
+                USA
+              </option>
+              <option value="item1" class="select__item">
+                item1
+              </option>
+              <option value="item2" class="select__item">
+                item2
+              </option>
+              <option value="item3" class="select__item">
+                item3
+              </option>
+            </select>
+          </div>
+          <!--/.sort__select-right-->
+        </form>
+      </div>
+    </section>
+    <!-- End section sort-->
+
+    <section id="products">
+      <div class="wrapper">
+        <div class="products__wrap">
+          <div class="filters">
+            <div class="filters__card">
+              <div class="card__item">
+                <a href="#item-1" class="card-title js-card-title">Top Sales</a>
+                <ul class="card-content js-card-content" id="item-1">
+                  <li class="card-content-item">
+                    Cell Phones
+                  </li>
+                  <li class="card-content-item">
+                    Cameras
+                  </li>
+                  <li class="card-content-item">
+                    Computers
+                  </li>
+                  <li class="card-content-item">
+                    Tv, Audio
+                  </li>
+                  <li class="card-content-item">
+                    Video Games
+                  </li>
+                </ul>
+              </div>
+              <div class="card__item">
+                <a href="#item-2" class="card-title js-card-title">Brand Focus</a>
+                <ul class="card-content js-card-content" id="item-2">
+                  <li class="card-content-item">
+                    Cell Phones
+                  </li>
+                  <li class="card-content-item">
+                    Cameras
+                  </li>
+                  <li class="card-content-item">
+                    Computers
+                  </li>
+                  <li class="card-content-item">
+                    Tv, Audio
+                  </li>
+                  <li class="card-content-item">
+                    Video Games
+                  </li>
+                </ul>
+              </div>
+              <div class="card__item">
+                <a href="#item-3" class="card-title js-card-title">Hi-Tech</a>
+                <ul class="card-content js-card-content" id="item-3">
+                  <li class="card-content-item">
+                    Cell Phones
+                  </li>
+                  <li class="card-content-item">
+                    Cameras
+                  </li>
+                  <li class="card-content-item">
+                    Computers
+                  </li>
+                  <li class="card-content-item">
+                    Tv, Audio
+                  </li>
+                  <li class="card-content-item">
+                    Video Games
+                  </li>
+                </ul>
+              </div>
+              <div class="card__item">
+                <a href="#item-4" class="card-title js-card-title">Home</a>
+                <ul class="card-content js-card-content" id="item-4">
+                  <li class="card-content-item">
+                    Cell Phones
+                  </li>
+                  <li class="card-content-item">
+                    Cameras
+                  </li>
+                  <li class="card-content-item">
+                    Computers
+                  </li>
+                  <li class="card-content-item">
+                    Tv, Audio
+                  </li>
+                  <li class="card-content-item">
+                    Video Games
+                  </li>
+                </ul>
+              </div>
+              <div class="card__item">
+                <a href="#item-5" class="card-title js-card-title">Sale</a>
+                <ul class="card-content js-card-content" id="item-5">
+                  <li class="card-content-item">
+                    Cell Phones
+                  </li>
+                  <li class="card-content-item">
+                    Cameras
+                  </li>
+                  <li class="card-content-item">
+                    Computers
+                  </li>
+                  <li class="card-content-item">
+                    Tv, Audio
+                  </li>
+                  <li class="card-content-item">
+                    Video Games
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--/.filters__card-1-->
+            <div class="filters__card">
+              <div class="card__item">
+               <form class="availabel" id="availabel" action="#" method="POST">
+                 <header class="availabel__header">
+                     <h3 class="availabel__title">Availabel</h3>
+                 </header>
+                 <div class="availabel__content">
+                     <div class="availabel-group">
+                         <input id="js-availabel-input" class="availabel__input" type="radio"  checked="checked">
+                         <label class="availabel__label" for="js-availabel-input">In Storage</label>
+                         <span class="availabel__label-span">45</span>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-input2" class="availabel__input" name="availabel-input"type="radio">
+                         <label class="availabel__label" for="js-availabel-input2">In Online-Shop</label>
+                         <span class="availabel__label-span">12</span>
+                    </div>
+                </div>
+                <!--/.availabel__content-1-->
+                <header class="availabel__header">
+                     <h3 class="availabel__title">
+                         Brands
+                         <a href="#" class="availabel__title-span">All</a>
+                     </h3>
+                 </header>
+                 <div class="availabel__content">
+                     <div class="availabel-group">
+                         <input id="js-availabel-input3" class="availabel__input" type="checkbox"  checked="checked">
+                         <label class="availabel__label" for="js-availabel-input3">Apple</label>
+                         <span class="availabel__label-span">32</span>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-input4" class="availabel__input" name="availabel-input" type="checkbox">
+                         <label class="availabel__label" for="js-availabel-input4">Jbl</label>
+                         <span class="availabel__label-span">14</span>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-input5" class="availabel__input" type="checkbox"  checked="checked">
+                         <label class="availabel__label" for="js-availabel-input5">Bose</label>
+                         <span class="availabel__label-span">3</span>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-input6" class="availabel__input" name="availabel-input" type="checkbox">
+                         <label class="availabel__label" for="js-availabel-input6">Nest</label>
+                         <span class="availabel__label-span">5</span>
+                    </div>
+                </div>
+                <!--/.availabel__content-2-->
+               </form>
+              </div>
+            </div>
+            <!--/.filters__card-2-->
+            <div class="filters__card">
+                 <form class="availabel" id="js-availabel" action="#" method="POST">
+                 <header class="availabel__header">
+                     <h3 class="availabel__title">
+                         Condition
+                         <a href="#" class="availabel__title-span">See All</a>
+                     </h3>
+                 </header>
+                 <div class="availabel__content">
+                     <div class="availabel-group">
+                         <input id="js-availabel-check" class="availabel__input" type="checkbox"  checked="checked">
+                         <label class="availabel__label" for="js-availabel-check">New</label>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-check2" class="availabel__input" name="availabel-input" type="checkbox">
+                         <label class="availabel__label" for="js-availabel-check2">Manufacturer Refurbished</label>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-check3" class="availabel__input" type="checkbox">
+                         <label class="availabel__label" for="js-availabel-check3">Seller Refurbished</label>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-check4" class="availabel__input" name="availabel-input" type="checkbox" checked="checked">
+                         <label class="availabel__label" for="js-availabel-check4">Used</label>
+                    </div>
+                    <div class="availabel-group">
+                         <input id="js-availabel-check5" class="availabel__input" type="checkbox">
+                         <label class="availabel__label" for="js-availabel-check5">For Parts or not Working</label>
+                    </div>
+                </div>
+                 <!--/.availabel__content-3-->
+                </form>
+            </div>
+            <!--/.filters__card-3-->
+            <div class="filters__card">
+                <form class="availabel" id="js-availabel" action="#" method="POST">
+                 <header class="availabel__header">
+                     <h3 class="availabel__title">Delivery Options</h3>
+                 </header>
+                 <div class="availabel__content">
+                     <div class="availabel-group">
+                         <input id="js-availabel-radio" class="availabel__input" type="radio"  checked="checked">
+                         <label class="availabel__label-radio" for="js-availabel-radio">Free</label>
+                         <input id="js-availabel-radio" class="availabel__input" type="radio">
+                         <label class="availabel__label-radio" for="js-availabel-radio">$4.99</label>
+                    </div>
+                </div>
+                 <!--/.availabel__content-4-->
+                </form>
+            </div>
+            <!--/.filters__card-4-->
+          </div>
+          <div class="products">
             <div class="products__row">
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img3.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
-                <div class="products__item products__item-big"></div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img1.jpg" alt="product1">
+                </div>
+                <div class="products__item-name">
+                  Apple TV 32GB
+                </div>
+                <div class="products__item-feature">
+                  Black
+                </div>
+                <div class="products__item-price">
+                  $49.99
+                </div>
+              </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img2.jpg" alt="product2">
+                </div>
+                <div class="products__item-name">
+                  Pebble Time
+                </div>
+                <div class="products__item-feature">
+                  Red
+                </div>
+                <div class="products__item-price">
+                  $29.99
+                </div>
+              </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img3.jpg" alt="product3">
+                </div>
+                <div class="products__item-name">
+                  Zendure 4-Port USB
+                </div>
+                <div class="products__item-feature">
+                  White
+                </div>
+                <div class="products__item-price">
+                  $49.99
+                </div>
+              </div>
             </div>
             <!--/.products__row-1 -->
             <div class="products__row">
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img4.jpg" alt="product4">
+                </div>
+                <div class="products__item-name">
+                  Withings Smart Body Analyzer ws-50
+                </div>
+                <div class="products__item-feature">
+                  Black
+                </div>
+                <div class="products__item-price">
+                  $49.99
+                </div>
+              </div>
+              <div class="products__item products__item-big">
+                <div class="products__item-big-img">
+                  <img src="i/good-img5.jpg" alt="product5">
+                </div>
+                <div class="products__item-big-content">
+                  <div class="products__item-big-text">
+                    <div class="products__item-big-name">
+                      JBL Charge 2+
                     </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
+                    <div class="products__item-big-feature">
+                      Black
                     </div>
-                    <div class="products__item-feature">
-                        Black
+                    <div class="products__item-big-price">
+                      $39.99
                     </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
+                  </div>
+                  <div class="products__item-big-btns">
+                    <button class="products__item-big-btn--left">
+                      16Gb
+                    </button>
+                    <button class="products__item-big-btn--right">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!--/.products__row-2 -->
             <div class="products__row">
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
-                 <div class="products__item">
-                    <div class="products__item-img">
-                        <img src="i/good-img1.jpg" alt="">
-                    </div>
-                    <div class="products__item-name">
-                         Apple TV 32GB
-                    </div>
-                    <div class="products__item-feature">
-                        Black
-                    </div>
-                    <div class="products__item-price">
-                        $49.99
-                    </div>
-                 </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img6.jpg" alt="product6">
+                </div>
+                <div class="products__item-name">
+                  Ollo Clip New
+                </div>
+                <div class="products__item-feature">
+                  Silver
+                </div>
+                <div class="products__item-price">
+                  $19.99
+                </div>
+              </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img7.jpg" alt="product7">
+                </div>
+                <div class="products__item-name">
+                  Apple TV 32GB
+                </div>
+                <div class="products__item-feature">
+                  Black
+                </div>
+                <div class="products__item-price">
+                  $49.99
+                </div>
+              </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img8.jpg" alt="product8">
+                </div>
+                <div class="products__item-name">
+                  Fitbit Charge HR Heart Rate and Activity Tracker
+                </div>
+                <div class="products__item-feature">
+                  Black
+                </div>
+                <div class="products__item-price">
+                  $19.99
+                </div>
+              </div>
             </div>
+            <!--/.products__row-3 -->
+            <div class="products__row">
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img9.jpg" alt="product9">
+                </div>
+                <div class="products__item-name">
+                  Bose SoundLink On-Ear Headphones
+                </div>
+                <div class="products__item-feature">
+                  White
+                </div>
+                <div class="products__item-price">
+                  $119.99
+                </div>
+              </div>
+              <div class="products__item">
+                <div class="products__item-img">
+                  <img src="i/good-img10.jpg" alt="product10">
+                </div>
+                <div class="products__item-name">
+                  Sonos Play-1 Wireless HiFi System
+                </div>
+                <div class="products__item-feature">
+                  Black
+                </div>
+                <div class="products__item-price">
+                  $99.99
+                </div>
+              </div>
+              <div class="products__item-gray">
+                <div class="products__item-gray-img">
+                  <img src="i/good-img11.jpg" alt="product11">
+                </div>
+                <div class="products__item-gray-text">
+                  <div class="products__item-gray-name">
+                    Nest Learning Thermostat, 3rd Generation
+                  </div>
+                  <div class="products__item-gray-price">
+                    $49.99
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.products__row-4 -->
+          </div>
         </div>
-    </div>
-</section>
-<!-- End section products-->
-<!-- JS section -->
-//= templates/end.html
+      </div>
+    </section>
+    <!-- End section products-->
+    <!-- JS section -->
+    //= templates/end.html

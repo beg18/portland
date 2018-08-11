@@ -20,9 +20,32 @@ $(function() {
     init()
 
 
+    $(".js-card-title").on("click", function(e) {
+
+        e.preventDefault();
+        var $this = $(this),
+            answerId = $this.attr("href");
+
+        if( !$this.hasClass("active") ) {
+            $(".js-card-content").slideUp();
+            $(".js-card-title").removeClass("active");
+        }
+
+        $this.toggleClass("active");
+        $(answerId).slideToggle();
+
+    });
 
 
 
+    /* iCheck https://github.com/fronteed/icheck
+     https://ruseller.com/lessons/les1676/demo/
+     ========================*/
 
+    $('input').iCheck({
+        checkboxClass: 'icheckbox_flat-green',
+        radioClass: 'iradio_flat-green',
+    });
+    
 
 });

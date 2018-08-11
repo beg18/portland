@@ -30,7 +30,7 @@
     display: block;
     width: @s;
     height: @s;
-    border-radius: 50%;
+    border-radius: @s/2;
     background-color: @bgc;
 }
 
@@ -49,6 +49,8 @@
     top: @posY;
     transform: translateY(50%);
 }
+
+
 .display-centerer-X(@posX:50%){
     position: absolute;
     left: @posX;
